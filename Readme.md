@@ -4,7 +4,7 @@
 
 This project focuses on analyzing an online retail e-commerce dataset to uncover sales trends, top-performing products, customer behavior, and revenue drivers.
 
-The analysis was carried out using Python, SQL, and data visualization, following a real-world data analyst workflow.
+The analysis was carried out using Python, SQL, and Power BI, following a real-world data analyst workflow.
 
 The dataset contains transactional data from a UK-based online retailer, including invoice details, product information, customer IDs, quantities, prices, and countries.
 
@@ -40,6 +40,8 @@ The dataset contains transactional data from a UK-based online retailer, includi
 
 - **MySQL Workbench**
 
+- **Power BI**
+
 ---
 
 ## 📂 Project Structure
@@ -56,6 +58,9 @@ Online-Retail-Ecommerce-Analysis/
 ├── sql_analysis.sql
 ├── sql_results/
 │       └── SQL output screenshots
+│
+├── Dashboard.pbix
+├── Dashboard_preview.png
 │
 └── README.md
 ```
@@ -136,7 +141,28 @@ Key SQL queries included:
 SQL outputs are available as screenshots in the sql_results folder.
 
 ---
+## 📊 Power BI Dashboard
 
+This project includes an interactive Power BI dashboard built using the cleaned Online Retail dataset.
+
+**Dashboard Insights:**
+- Total Revenue
+
+- Total Orders
+
+- Average Order Value (AOV)
+
+- Revenue by Country
+
+- Monthly Sales Trend
+
+- Top Customers by Revenue
+
+**File included:**
+
+Dashboard.pbix → Open in Power BI Desktop to view the interactive report.
+
+---
 ## 📊 Key Insights
 
 - The United Kingdom accounts for the majority of total revenue (over 80%)
@@ -161,7 +187,7 @@ SQL outputs are available as screenshots in the sql_results folder.
 ---
 ## 🏁 Conclusion
 
-This project demonstrates an end-to-end data analysis process, including data cleaning, EDA, visualization, SQL querying, and insight generation.
+This project helped me strengthen my skills in SQL, data analysis, and dashboard building, and improved my ability to convert raw data into actionable insights.
 
 It reflects real-world responsibilities of a data analyst and showcases practical analytical skills using real business data.
 
